@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "windy-nation-438204-d0",
+  "private_key_id": "c8da50b1ccb55bee63ca623d1b08b0030552ad2a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDQda1SbSlDLdE+\nafsfIFaPFNSl0ym7hxUlFU7ClbfsPR+jSjYvrDa2kmUsgN8aKKZdlgbE0JYxwi8C\nHy0e0SbNXctks1DBhlIyjgxquYYa9ghztV+xVP2yvQYgvDUYxeZKD96qhxn+SnIK\n482XXlyRoMdAKL3urBzwYkdN0AkJlVxH2lj2zcurSkNbV/t6iHJvvwX0ZKtR6NB7\n7+eVauqYPY4nIaWIN/NOjX7nS7EdHLqJfTQcJ0ppa9ny84Rz/DqoPf8PFbus31l3\nkgagDz/VcVqEciQxwvEX4MzZ6tYeYElw4j+/6IhV1QY7M6oSxAnS6uDkdcRvhnrF\ndQlvhtS/AgMBAAECggEARAFf3bgG8geMb5QbfHgMRPlCtiZBQxA6cbKV0x0Mt2Dp\nZVfcfYjtAHqZzv7ryZjhTT6YTrTNisYSl9qb2aXZxr2GkP9+pOOxBRUaL+b+POVu\ntHDDGxLjAOBxk1RS7hYBnr+2oGMas76NncfbVjpOcKPG3MNt0uMLPdCR+myXxiwA\n8dJeU9bYZlC9Fs/IOrAH9e3cPVddl+NtxmtECRAtGONIUYL9WHCgMO16WYGvLZqD\nePpdd6V9JmKd1Kfzy9q/HsMdCsjbRZP0fSnPV6LUrZ42F7p8WOfd5gx+8aW5MrSP\n+O9oKj9Kkj8Ozr4UCpxVG53oN18SscIVfQiwd4U0AQKBgQDvJp7cwme9eCfKiqNW\n6QGKW/tf0a5VxWFtu1pXAXAQrlaWVruTWOKW/ZoL+phfnhBF7VnkSo6LBZiZtYiC\ntA/YLpDIYU2Q4vydaIQ2ofO4sXQd52FYyFqtmUKB37I3s+vlLyD3qsMhLYVzwKX2\nD/qXpZyOmPpPQr1OPWJnnAqZgQKBgQDfJYDV7xSI8PpLgwJXI+RFQgJdobwwrbU/\n3Mg1Ya/3EbLX9EfQn4dCh6zcKZ9vAh4dr6g9WuB8MccI+j9ebeVzv1ZhwwZPfr9Q\ntlMQG2S1QiDsFBQM8JCnVU3RJ3ljEYo/aFFu26Fk1w+ekxz47ILaD/U9A5mbYqid\nPVSEm4YOPwKBgQDnhFbk1lsBxJGY9a/9EiNIo5VuBJqmNCgGyApEEoM/0tbGQf7j\nPXhWvfnkwNvELUwJtiaA6GCoW2mI3IHkLpbsLOBC7Fff/K6bYDQmg5Bja39C9914\nyrVmO+lzu3BXlpm2zHI48Zpnwx7fmU/RL1TkfBJcxeIE21JSrQBX12s3gQKBgCIr\nCO45HIjXdUvotIwJR+O+9sPFhx5hCtbLhLB/08TeJedhVTnBo6FxSuuvR+Vkip37\nDqTObH831AUw5FEePLsbeiugBDBZ9Qtzz4Yw25vRk17yuBs/HrcwnajABZtAzU1m\nOMnjwXPCZnbeidonxOWE+gUsrvGXCsCA6pcfhUhbAoGBAKWfl4jML7JTyWHAeq3M\nT08Yy5rx+RAtRs5YnzzrDbANhKRnHfGTyNwOAaX26PPn+z9rl5TSECeIwb9c9z3O\nyUDtoM3CFrBSdJ8YwV1Ah73LV7DmonBdAknRx0v5scG2epdaFhgsogU6okSWvg9F\nrCDbMMJmMSCqxKIbwwFOUFSN\n-----END PRIVATE KEY-----\n",
+  "client_email": "qa-wppool-rakibul@windy-nation-438204-d0.iam.gserviceaccount.com",
+  "client_id": "100067080866751351273",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/qa-wppool-rakibul%40windy-nation-438204-d0.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,42 @@
+{
+  "SETTINGS_TOOGLE_SHEET_RANGE": {
+    "Order_Status": "C1",
+    "Total_Items": "D1",
+    "Product_SKU": "E1",
+    "Total_Price": "F1",
+    "Total_Discount": "G1",
+    "Billing_Details": "H1",
+    "Shipping_Details": "I1",
+    "Order_Date": "J1",
+    "Payment_Method": "K1",
+    "Customer_Note": "L1",
+    "Order_Placed_by": "M1",
+    "Order_URL": "N1",
+    "Order_Note": "O1",
+    "_billing_address_index": "P1",
+    "_shipping_address_index": "Q1",
+    "Show_Individual_Products": "B2"
+  },
+  "product": {
+    "name": "Album",
+    "country": "BD",
+    "firstName": "Rakibul",
+    "lastName": "Islam",
+    "address": "Dhaka, Bangladesh",
+    "city": "Dhaka",
+    "district": "BD-13"
+  },
+  "googleAccount": {
+    "email": "rakibul1@wppool.dev",
+    "password": "WpPool03029",
+    "project": "windy-nation-438204-d0"
+  },
+  "serviceAccount": {
+    "name": "tahsin0531",
+    "downloadPath": "./tests/utilities/downloaded_key.json",
+    "uploadFile": "./tests/utilities/upload_key.json"
+  },
+  "timeouts": {
+    "defaultTimeout": 30000
+  }
+}
