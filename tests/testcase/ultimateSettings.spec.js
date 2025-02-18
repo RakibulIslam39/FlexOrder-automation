@@ -34,6 +34,7 @@ test.describe('Ultimate Settings Toggle Validation', () => {
 
         expect(rows.length).toBeGreaterThan(0);
         expect(rows[0][0]).toBe("Order Status");
+        expect(rows[1][0]).toBeTruthy();
         console.log('Display Custom Order Status row read from sheet:', rows);
     });
 
@@ -45,6 +46,7 @@ test.describe('Ultimate Settings Toggle Validation', () => {
 
         expect(rows.length).toBeGreaterThan(0);
         expect(rows[0][0]).toBe("Total Items");
+        expect(rows[1][0]).toBe("5");
         console.log('Display Total Items row read from sheet:', rows);
     });
 
@@ -56,6 +58,7 @@ test.describe('Ultimate Settings Toggle Validation', () => {
 
         expect(rows.length).toBeGreaterThan(0);
         expect(rows[0][0]).toBe("Product SKU");
+        expect(rows[1][0]).toBe("SKU0360");
         console.log('Sync Product SKU row read from sheet:', rows);
     });
 
@@ -67,6 +70,7 @@ test.describe('Ultimate Settings Toggle Validation', () => {
 
         expect(rows.length).toBeGreaterThan(0);
         expect(rows[0][0]).toBe("Total Price");
+        expect(rows[1][0]).toBe("53.45");
         console.log('Display Total Price row read from sheet:', rows);
     });
 
@@ -78,6 +82,7 @@ test.describe('Ultimate Settings Toggle Validation', () => {
 
         expect(rows.length).toBeGreaterThan(0);
         expect(rows[0][0]).toBe("Total Discount");
+        expect(rows[1][0]).toBe("0");
         console.log('Display Total Discount row read from sheet:', rows);
     });
 
@@ -100,6 +105,7 @@ test.describe('Ultimate Settings Toggle Validation', () => {
 
         expect(rows.length).toBeGreaterThan(0);
         expect(rows[0][0]).toBe("Billing Details");
+        expect(rows[1][0]).toBe("John Smith  123 Main Street  Smithers BC V0J 2N0 CA example2@example.com 4564028110");
         console.log('Display Billing Address row read from sheet:', rows);
     });
 
@@ -111,6 +117,7 @@ test.describe('Ultimate Settings Toggle Validation', () => {
 
         expect(rows.length).toBeGreaterThan(0);
         expect(rows[0][0]).toBe("Shipping Details");
+        expect(rows[1][0]).toBe("Jane Doe  123 Main Street  Smithers BC V0J 2N0 CA 7336409935");
         console.log('Display Shipping Address row read from sheet:', rows);
     });
 
@@ -122,6 +129,7 @@ test.describe('Ultimate Settings Toggle Validation', () => {
 
         expect(rows.length).toBeGreaterThan(0);
         expect(rows[0][0]).toBe("Order Date");
+        expect(rows[1][0]).toBe("2025-01-08 0:00:00");
         console.log('Display Order Date row read from sheet:', rows);
     });
 
@@ -133,6 +141,7 @@ test.describe('Ultimate Settings Toggle Validation', () => {
 
         expect(rows.length).toBeGreaterThan(0);
         expect(rows[0][0]).toBe("Payment Method");
+        expect(rows[1][0]).toBe("Cash on delivery");
         console.log('Display Payment Method row read from sheet:', rows);
     });
 
@@ -155,6 +164,7 @@ test.describe('Ultimate Settings Toggle Validation', () => {
 
         expect(rows.length).toBeGreaterThan(0);
         expect(rows[0][0]).toBe("Order Note");
+        expect(rows[1][0]).toBe("Order status changed from Pending payment to Processing., Order status changed from Refunded to Pending payment., Order status changed from Processing to On hold., Order status changed from On hold to Cancelled., Order status changed from Cancelled to Failed., Order status changed from Failed to Processing., Order status changed from Processing to Completed., Order status changed from Completed to Processing., Order status changed from Processing to On hold., Order status changed from On hold to Completed., Order status changed from Completed to Draft., Order status changed from Draft to Cancelled., Order status changed from Cancelled to Pending payment., Order status changed from Pending payment to Processing., Order status changed from Processing to Completed., Order status changed from Completed to Pending payment., Order status changed from Pending payment to Processing., Order status changed from Processing to On hold., Order status changed from On hold to Processing. Order status changed from Processin");
         console.log('Display Order Note row read from sheet:', rows);
     });
 
@@ -166,6 +176,7 @@ test.describe('Ultimate Settings Toggle Validation', () => {
 
         expect(rows.length).toBeGreaterThan(0);
         expect(rows[0][0]).toBe("Order Placed by");
+        expect(rows[1][0]).toBe("hassan");
         console.log('Display Order Placement row read from sheet:', rows);
     });
 
@@ -177,6 +188,7 @@ test.describe('Ultimate Settings Toggle Validation', () => {
 
         expect(rows.length).toBeGreaterThan(0);
         expect(rows[0][0]).toBe("Order URL");
+        expect(rows[1][0]).toBe("https://staging-site-mlchga.flywp.xyz/wp-admin/post.php?post=1087&action=edit");
         console.log('Display Order URL row read from sheet:', rows);
     });
 
@@ -195,9 +207,11 @@ test.describe('Ultimate Settings Toggle Validation', () => {
     
         expect(rowsBilling.length).toBeGreaterThan(0);
         expect(rowsBilling[0][0]).toBe("_billing_address_index");
+        expect(rowsBilling[1][0]).toBe("John Smith  123 Main Street  Smithers BC V0J 2N0 CA example2@example.com 4564028110");
         
         expect(rowsShipping.length).toBeGreaterThan(0);
         expect(rowsShipping[0][0]).toBe("_shipping_address_index");
+        expect(rowsShipping[1][0]).toBe("Jane Doe  123 Main Street  Smithers BC V0J 2N0 CA 7336409935");
     
         console.log('Sync Order Custom Fields row read from sheet:', rowsBilling, rowsShipping);
     });

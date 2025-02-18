@@ -67,6 +67,8 @@ test.describe("WooCommerce Order Creation and Validation on Google Sheets", () =
             expect.soft(storedOrder.order_placed_by).toBe(orderPlacedBy);
             expect.soft(storedOrder.order_url).toBe(orderUrl);
             expect.soft(storedOrder.order_note).toBe(orderNote);
+
+            expect(test.info().errors).toHaveLength(0);
         }
     });
     

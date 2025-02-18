@@ -15,4 +15,5 @@ test('Setup Add Credentials and Upload File Test', async ({ page }) => {
 
     await setupPage.completeSetup();
     await setupPage.finalizeSetup();
+    await expect(page.getByRole('heading', { name: 'Congratulations' })).toBeVisible();
 });

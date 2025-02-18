@@ -62,7 +62,7 @@ class SetupAddCredentialsPage {
         await this.syncLink.click();
         await expect(this.page.getByRole('heading', { name: 'Congratulations' })).toBeVisible();
         await this.dashboardLink.click();
-        await expect(this.page.getByRole('heading', { name: 'Congratulations' })).toBeVisible();
+
     }
 }
 

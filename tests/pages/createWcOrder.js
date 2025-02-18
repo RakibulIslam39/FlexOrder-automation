@@ -1,3 +1,5 @@
+//remove pages from the tests folder. Create separate folder on the main workplace. 
+
 const WooCommerceRestApi = require("@woocommerce/woocommerce-rest-api").default;
 const { generateRandomOrderData } = require("../../test-utils/generateRandomOrderData");
 const { google } = require("googleapis");

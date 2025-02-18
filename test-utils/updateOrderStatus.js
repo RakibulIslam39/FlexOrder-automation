@@ -1,7 +1,6 @@
 const { google } = require('googleapis');
-const WooCommerceRestApi = require("@woocommerce/woocommerce-rest-api").default;
 require('dotenv').config();
-
+const WooCommerceRestApi = require("@woocommerce/woocommerce-rest-api").default;
 const updatedOrders = [];
 const orderStatuses = [
     "wc-pending",
@@ -35,6 +34,7 @@ class OrderStatusUpdater {
         return google.sheets({ version: 'v4', auth: client });
     }
 
+    // Add the missing fetchFirstOrder method
     async fetchFirstOrder(range) {
         const sheets = await this.initializeSheets();
         try {
@@ -86,6 +86,7 @@ class OrderStatusUpdater {
             updatedOrders.push({ id: orderId, status: newStatus });
             console.log(`Order ID ${orderId} status updated to "${newStatus}" in Google Sheets`);
             
+            // Update WooCommerce after successful sheet update
             await this.updateWooCommerceStatus(orderId, newStatus);
         } catch (error) {
             console.error('Error updating order status in sheet:', error.message);
@@ -176,6 +177,7 @@ class OrderStatusUpdater {
                 throw new Error('Target sheet not found');
             }
 
+            // Create an Apps Script trigger
             const script = {
                 function: 'onEdit',
                 deploymentId: process.env.APPS_SCRIPT_DEPLOYMENT_ID,
