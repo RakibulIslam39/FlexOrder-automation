@@ -10,18 +10,18 @@ class OrderSyncSettingsPage {
         this.optionToggles = {
             syncCustomOrderStatus: page.locator('label').filter({ hasText: 'Sync Custom order status' }).locator('input[type="checkbox"]'),
             displayTotalItems: page.locator('label').filter({ hasText: 'Display Total Items' }).locator('input[type="checkbox"]'),
-            syncProductSkuUltimateNew: page.locator('label').filter({ hasText: 'Sync product SKU Ultimate New' }).locator('input[type="checkbox"]'),
+            syncProductSku: page.locator('label').filter({ hasText: 'Sync product SKU' }).locator('input[type="checkbox"]'),
             displayTotalPrice: page.locator('label').filter({ hasText: 'Display Total Price' }).locator('input[type="checkbox"]'),
             displayTotalDiscount: page.locator('label').filter({ hasText: 'Display Total Discount' }).locator('input[type="checkbox"]'),
             showIndividualProduct: page.locator('label').filter({ hasText: 'Show individual product' }).locator('input[type="checkbox"]'),
             displayBillingAddress: page.locator('label').filter({ hasText: 'Display Billing Address' }).locator('input[type="checkbox"]'),
             displayShippingAddress: page.locator('label').filter({ hasText: 'Display Shipping Address' }).locator('input[type="checkbox"]'),
-            displayOrderDateUltimate: page.locator('label').filter({ hasText: 'Display Order Date Ultimate' }).locator('input[type="checkbox"]'),
+            displayOrderDate: page.locator('label').filter({ hasText: 'Display Order Date' }).locator('input[type="checkbox"]'),
             displayPaymentMethod: page.locator('label').filter({ hasText: 'Display Payment Method' }).locator('input[type="checkbox"]'),
-            displayCustomerNoteUltimate: page.locator('label').filter({ hasText: 'Display Customer Note Ultimate' }).locator('input[type="checkbox"]'),
-            displayOrderNoteUltimate: page.locator('label').filter({ hasText: 'Display Order Note Ultimate' }).locator('input[type="checkbox"]'),
+            displayCustomerNote: page.locator('label').filter({ hasText: 'Display Customer Note' }).locator('input[type="checkbox"]'),
+            displayOrderNote: page.locator('label').filter({ hasText: 'Display Order Note' }).locator('input[type="checkbox"]'),
             displayOrderPlacement: page.locator('label').filter({ hasText: 'Display order placement' }).locator('input[type="checkbox"]'),
-            displayOrderUrlUltimate: page.locator('label').filter({ hasText: 'Display Order URL Ultimate' }).locator('input[type="checkbox"]'),
+            displayOrderUrl: page.locator('label').filter({ hasText: 'Display Order URL' }).locator('input[type="checkbox"]'),
             syncOrderCustomFields: page.locator('label').filter({ hasText: 'Sync Order Custom Fields' }).locator('input[type="checkbox"]'),
         };
 
