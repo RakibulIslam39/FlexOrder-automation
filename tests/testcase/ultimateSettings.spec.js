@@ -173,7 +173,7 @@ test.describe('Ultimate Settings Toggle Validation', () => {
         const rows = await googleSheetAPI.readFromSheet(SPREADSHEET_ID, productData.SETTINGS_TOOGLE_SHEET_RANGE.Order_URL);
 
         expect(rows[0][0]).toBe("Order URL");
-        expect(rows[1][0]).toBe("https://staging-site-mlchga.flywp.xyz/wp-admin/post.php?post=1087&action=edit");
+        expect(rows[1][0]).toBe("https://staging3.wppool.dev/wp-admin/post.php?post=1087&action=edit");
         console.log('Display Order URL row read from sheet:', rows);
     });
 

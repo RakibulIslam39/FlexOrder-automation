@@ -6,7 +6,7 @@ class LoginPage {
         this.usernameField = page.getByLabel('Username or Email Address');
         this.passwordField = page.getByLabel('Password', { exact: true });
         this.loginButton = page.getByRole('button', { name: 'Log In' });
-        this.dashboardButton = page.getByRole('link', { name: 'Dashboard' });
+        this.dashboardButton = page.locator("a[class='wp-first-item wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-top-first menu-icon-dashboard menu-top-first menu-top-last'] div[class='wp-menu-name']");
     }
 
     async navigate() {
